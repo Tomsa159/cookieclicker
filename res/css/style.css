@@ -3,8 +3,20 @@
    background-image: url("../img/background.png");
 }
 .container{
- margin: 0 auto;
- margin-top: 150px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.upgrade{
+    width: 160px;
+    display: flex;
+
+}
+.jedna{
+    width: 70px;
+}
+.dva{
+    width: 70px;
+    padding-left: 20px;
 }
 #cookie{
     max-width: 220px;
@@ -14,8 +26,24 @@
     transition: 0.2s ease-in;
     
 }
+
 #counter{
-color: white;
-font-size: 35px;
-text-align: center;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+#upgr{
+    max-width: auto;
+    width: 70px;
+}
+#auto{
+    max-width: auto;
+    width: 70px;
+}
+img{
+    width: 70px;
+}
+#farm{
+    max-width: auto;
+    width: 70px;
 }
